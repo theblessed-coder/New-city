@@ -104,6 +104,12 @@ body {
     margin-top: 3rem;
 }
 
+/* for mobile */
+
+.mobileContainer {
+    display: none;
+}
+
 .activities {
     margin: 5rem;
     border-top: 2px solid #E1568E;
@@ -186,6 +192,7 @@ section {
     padding: 0 7rem;
 }
 
+
 .row-two {
     display: flex;
     justify-content: center;
@@ -194,6 +201,12 @@ section {
 
 .row-two p {
     padding: 0 7rem;
+}
+
+/* Mobile row */
+
+.mobileRow {
+    display: none;
 }
 
 .containerSection {
@@ -463,17 +476,31 @@ section {
         font-size: 1.5rem;
     }
 
+    /* Desktop View */
     .one {
-        margin: 2rem 0 0 0;
+        display: none;
     }
 
-    .row-one p {
-        padding: 0 3rem;
+    .row-one {
+        display: none;
     }
 
-    .row-two p {
-        padding: 0 3rem;
+    .row-two {
+        display: none;
 
+    }
+
+    /* Mobile View */
+
+    .mobileRow {
+        display: flex;
+        flex-direction: row;
+        margin: 2rem;
+        text-align: center;
+    }
+
+    .mobileRow img {
+        width: 60px;
     }
 
     .containerSection {
